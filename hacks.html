@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Hacks Proposals - 11th Named Data Networking (NDN) Hackathon (Virtual)</title>
+    <meta name="description" content="May 21-23, 2021">
+    <meta name="author" content="11th NDN Hackathon Organizing Committee">
+    <link rel="canonical" href="http://11th-ndn-hackathon.named-data.net/hacks">
+
+    <link rel="stylesheet" type="text/css" integrity="sha256-kSDHVVclSYTLyPe5EtUSyKlO1pT3fLOGOJIJI1QgnuA=" crossorigin="anonymous" href="/assets/site-9120c75557254984cbc8f7b912d512c8a94ed694f77cb3863892092354209ee0.css">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/assets/ico/favicon-38a0d815005ff0b3d71bae96e5736aaf474efe05b3288d12f6465c38b43aa315.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed-97e5eefed33136b6b7e63bdbdf4957b88045bd96bb9b2cc5a0a8525729ca221f.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed-8603082234efbd8fca0f58505f699a5854a13739f12b87b69143b06a4cccc0c7.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed-a22882427ca6e03081271325bf1294e8cd2ee4c447f635000e4f4a0f694bfe55.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed-933602014f87c50876665303015b7fed8f9dbe32ab7b7b62ebe888e5497dfd43.png">
+
+    
+  </head>
+  <body>
+    <header id="header">
+      <hgroup>
+  <h1 id="site-title">
+    <a class="full" href="/">11th Named Data Networking (NDN) Hackathon (Virtual)</a>
+  </h1>
+
+  <h2 id="site-description">May 21-23, 2021</h2>
+
+</hgroup>
+
+    </header>
+
+    <nav id="navbar">
+      <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+
+  
+  
+          <li class="">
+            <a href="/">Home</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/committees.html">Committees</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/cfh.html">Call for Hacks</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/hacks.html"><b>HACKS</b></a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/program.html">Program</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/judging.html">Judging</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/conduct.html">Code of Conduct</a>
+          </li>
+  
+
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search" action="http://google.com/search" method="get">
+        <div class="form-group">
+
+          <input type="hidden" name="q" value="site:http://11th-ndn-hackathon.named-data.net">
+
+          <input type="text" name="q" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+
+        <aside id="sidebar" class="col-xs-8 col-sm-5 col-md-4 col-lg-3 pull-right">
+          <section id="sidebar-deadlines" class="well">
+ <h3><i class="fa fa-calendar"></i>&nbsp;Important Dates</h3>
+<ul id="deadlines" class="nav nav-list">
+
+  <li><p>Submission deadline:
+  
+  <br/><b style="margin-left: 20px">Tuesday, May 18, 2021</b>
+  
+  </p></li>
+
+  <li><p>Acceptance notification:
+  
+  <br/><b style="margin-left: 20px">Thursday, May 20, 2021</b>
+  
+  </p></li>
+
+</ul>
+</section>
+
+        </aside><!--/span-->
+
+        <div id="main" class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
+          <article>
+ <header>
+   <h1>Hacks Proposals</h1>
+ </header>
+
+<section>
+  
+<ul id="markdown-toc">
+  <li><a href="#1-passive-name-visualizer" id="markdown-toc-1-passive-name-visualizer"><del>1. Passive Name Visualizer</del></a></li>
+  <li><a href="#2-ndn-experiments-on-fed4fire" id="markdown-toc-2-ndn-experiments-on-fed4fire"><del>2. NDN Experiments on Fed4FIRE</del></a></li>
+  <li><a href="#3-ndn-fch-the-big-rewrite" id="markdown-toc-3-ndn-fch-the-big-rewrite">3. NDN-FCH: The Big Rewrite</a></li>
+  <li><a href="#4-bug-smash-low-hanging-fruits" id="markdown-toc-4-bug-smash-low-hanging-fruits"><del>4. Bug Smash: Low Hanging Fruits</del></a></li>
+  <li><a href="#5-metasync-protocol" id="markdown-toc-5-metasync-protocol"><del>5. MetaSync Protocol</del></a></li>
+  <li><a href="#6-ndn-compute-simulator-ndncsim" id="markdown-toc-6-ndn-compute-simulator-ndncsim">6. NDN Compute Simulator (ndnCSim)</a></li>
+  <li><a href="#7-ndn-play" id="markdown-toc-7-ndn-play">7. NDN Play</a></li>
+  <li><a href="#8-mini-ndn-improvements" id="markdown-toc-8-mini-ndn-improvements">8. Mini-NDN Improvements</a></li>
+  <li><a href="#9-certcoalesce-ndn-certificate-pools" id="markdown-toc-9-certcoalesce-ndn-certificate-pools">9. CertCoalesce: NDN Certificate Pools</a></li>
+</ul>
+
+<h2 id="1-passive-name-visualizer"><del>1. Passive Name Visualizer</del></h2>
+
+<h4 id="pitch-slides"><strong><a href="/assets/ndn-hackathon2105-proposal1-e2760ad5b26ba277f8795c09ba0951f21bc74c4505d6db562eb50bc6f65a28e1.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Junxiao Shi</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>2</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Insights into network behavior</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong>
+Build upon the namevis project from ndnhack10, add two new features:</p>
+<ul>
+  <li>server-side name filtering and aggregation</li>
+  <li>time range selection (from pcap file)</li>
+</ul>
+
+<p><strong>Any specific tools or languages?</strong></p>
+<ul>
+  <li>Go</li>
+  <li>Chart.js</li>
+</ul>
+
+<p><strong>Expected Outcomes:</strong></p>
+<ul>
+  <li>New features implemented</li>
+</ul>
+
+<h2 id="2-ndn-experiments-on-fed4fire"><del>2. NDN Experiments on Fed4FIRE</del></h2>
+
+<h4 id="pitch-slides-1"><strong><a href="/assets/ndn-hackathon2105-proposal2-47a4a8364057a26dfecc415324c19e2c08cf9c02d8e0c33d206ed6fa2e02f585.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Junxiao Shi</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>3</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Quick start for NDN experimentation on a testbed</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong>
+Build upon existing app at https://rspec.ndn.today, add new features:</p>
+<ul>
+  <li>Import topology from Mini-NDN topology file.</li>
+  <li>Support NFD and NLSR.</li>
+  <li>Add telemetry collection for “Docker registry over NDN” proxy program.</li>
+</ul>
+
+<p><strong>Any specific tools or languages?</strong></p>
+<ul>
+  <li>Docker</li>
+  <li>PHP</li>
+  <li>Go</li>
+</ul>
+
+<p><strong>Expected Outcomes:</strong></p>
+<ul>
+  <li>At least two new features implemented</li>
+</ul>
+
+<h2 id="3-ndn-fch-the-big-rewrite">3. NDN-FCH: The Big Rewrite</h2>
+
+<h4 id="final-slides"><strong><a href="/assets/final-3-ndn-fch-642e51fb81d10fcf73e52144c400ce7952585abf81ad7ad618e0d422266b367b.pdf">Final Slides</a></strong></h4>
+<h4 id="pitch-slides-2"><strong><a href="/assets/ndn-hackathon2105-proposal3-90c6f43f369adf3ca1992324750fad9c9407b33cd2ed408bef57c246fa9af112.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Junxiao Shi</li>
+</ul>
+
+<p><strong>Project Members:</strong></p>
+<ul>
+  <li>Eric Newberry</li>
+  <li>Junxiao Shi</li>
+  <li>Muhammad Nuzaihan</li>
+  <li>Zhiyi Zhang</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>4</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>More robust service</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong>
+Improve NDN-FCH service:</p>
+
+<ul>
+  <li>Allow more transport protocols, including IPv4 &amp; IPv6, UDP, WebSockets, HTTP/3 over QUIC</li>
+  <li>Perform periodical reachability tests from around the world</li>
+  <li>Deploy a frontend on Cloudflare Workers, avoid single point of failure</li>
+  <li>Download GeoLite2 database with MaxMind license key</li>
+  <li>Collect RTT feedback from clients</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Go</li>
+  <li>Python</li>
+  <li>JavaScript</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Complete features 1-4</li>
+</ul>
+
+<h2 id="4-bug-smash-low-hanging-fruits"><del>4. Bug Smash: Low Hanging Fruits</del></h2>
+
+<h4 id="pitch-slides-3"><strong><a href="/assets/ndn-hackathon2105-proposal4-7d0105bc59f5e5960fb3a1e99fb0bef157bd34b1888e6bfd2b21e79241764a28.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Junxiao Shi</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>3</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Fix bugs in platform software</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong></p>
+<ul>
+  <li>NFD faces/destroy should not destroy reserved faces (#4115).</li>
+  <li>NFD crashes upon binding to a tentative IPv6 address (#5155).</li>
+  <li>NFD crashes upon receiving TCP RST (#5158).</li>
+  <li>PSync relies on Name URI syntax that is non-portable (#4838).</li>
+  <li>NLSR crashes if security is disabled (Slack#nlsr 2021-03-30).</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>C++</li>
+  <li>Boost C++ libraries</li>
+  <li>Gerrit</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Bugfixes submitted to Gerrit, project members are expected to follow-up until they are merged</li>
+</ul>
+
+<h2 id="5-metasync-protocol"><del>5. MetaSync Protocol</del></h2>
+
+<h4 id="pitch-slides-4"><strong><a href="/assets/ndn-hackathon2105-proposal5-bf093bb05ff353d06167eaa872ff13643bce0e7685d9424fe0119e7d6912a1ff.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Justin C Presley</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>3</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Expands on svs to allow more data producers and nullifying datasets</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong></p>
+<ul>
+  <li>Implement said design, maybe include more improvements within the design</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Python starting</li>
+  <li>C++ if we can</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Have an implemented improved sync protocol</li>
+</ul>
+
+<h2 id="6-ndn-compute-simulator-ndncsim">6. NDN Compute Simulator (ndnCSim)</h2>
+
+<h4 id="final-slides-1"><strong><a href="/assets/final-6-ndncsim-61cf9d2b3d07279763821cb3f6fbf59334a3071e095d00c84294243649b985b2.pdf">Final Slides</a></strong></h4>
+<h4 id="pitch-slides-5"><strong><a href="/assets/ndn-hackathon2105-proposal6-e7ffb436cb4178e368298ab488fd83387f73ef4c798657b355076eb74829065a.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Muhammad Atif Ur Rehman</li>
+</ul>
+
+<p><strong>Project Members:</strong></p>
+<ul>
+  <li>Muhammad Atif Ur Rehman</li>
+  <li>Muhammad Imran</li>
+  <li>Muhammad Salahuddin</li>
+  <li>Sana Fayyaz</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>4</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>In-network computation and specifically edge cloud computing has attracted extensive attention in the recent past from both academia and Industry. The common goal of these technologies is to enable the networking nodes to perform computations. Such networking nodes include 1) edge computing node, 2) the resource-full routers between an edge node and cloud node and 3) the cloud node itself. Various NDN-based in-network computation solutions have been proposed by the researchers, indicating the widespread interest of the NDN research community in edge cloud computing and in-network computations. However, unfortunately, the default implementation of the ndnSIM simulator does not provide the basic realization of in-network computations, leaving the NDN researchers with the only option of implementing the computation mechanism from scratch. To save the researchers time and to provide them the basic implementation of in-network computation, this hackathon project aims to add the computation functionality in ndnSIM. As a result, the NDN research community will be greatly benefited from the above-mentioned implementation, as by utilizing ndnCSIM the researcher can leverage the basic implementation of in-network computations in vanilla-ndnSIM.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong>
+This hackathon project aims to complete the following task.</p>
+<ul>
+  <li>Enable the consumer node to set the computation-based naming scheme.</li>
+  <li>Enable the intermediate nodes to perform computations based on the received compute request in the Interest packet. To mimic the computation behavior, we will add different computation models. Moreover, we will also add the functionality to monitor the resource consumption of the intermediate nodes. For example, by default, the intermediate node resource utilization will be 0%, however, as soon the computation requests arrive, the resource utilization will be increased to let say 10% depending on nature (type) of the task. Thus, if 100% resource utilization is met, the intermediate node offloads the request to the next node. All of the above-mentioned implementations will be incorporated into the NFD codebase.</li>
+  <li>Develop NDN compute-based producer application in an apps folder. Similar to the intermediate node, the producer node application also monitors resource utilization. However, different from the intermediate node, the producer node computes the application adds the compute request in the waiting pool if the resources are fully occupied, and performs the computation after the resource availability.</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>C++</li>
+  <li>vanilla-ndnSIM</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>The implementation for in-network computations in ndnSIM simulator.</li>
+</ul>
+
+<h2 id="7-ndn-play">7. NDN Play</h2>
+
+<h4 id="final-slides-2"><strong><a href="/assets/final-7-ndn-play-3919a21554f0a0f3bb53a394efc16226f94eabf1ff89c6c59fef630c573fadfe.pdf">Final Slides</a></strong></h4>
+<h4 id="pitch-slides-6"><strong><a href="/assets/ndn-hackathon2105-proposal7-9cabf61cb9751ab29f531400ebf641e474bb51d21a5e09cf263bb0d54dff0dbf.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Varun Patil</li>
+</ul>
+
+<p><strong>Project Members:</strong></p>
+<ul>
+  <li>Tianyuan Yu</li>
+  <li>Varun Patil</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>1</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>A web interface to create and play with NDN topologies, similar to miniNDN, but running fully in the browser without any backend. This will be useful for beginners to understand NDN.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong></p>
+<ul>
+  <li>Create the web interface</li>
+  <li>Simulate a rudimentary JavaScript NDN forwarder or port an existing one to JS</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>JavaScript</li>
+  <li>NDNts</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Full web interface that can be used by NDN beginners to simulate networks.</li>
+</ul>
+
+<h2 id="8-mini-ndn-improvements">8. Mini-NDN Improvements</h2>
+
+<h4 id="final-slides-3"><strong><a href="/assets/final-8-mini-ndn-2701e940ced9402c6a0c3c30832a208175cb4303a3a61113eac9e57ca0db3b08.pdf">Final Slides</a></strong></h4>
+<h4 id="pitch-slides-7"><strong><a href="/assets/ndn-hackathon2105-proposal8-cb505500094b144d78b345b7f17c96fba4fb83d8a7a37856cab877983a1ba0fe.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Leads:</strong></p>
+<ul>
+  <li>Saurab Dulal</li>
+  <li>Alexander Lane</li>
+</ul>
+
+<p><strong>Project Members:</strong></p>
+<ul>
+  <li>Adam Thieme</li>
+  <li>Ashiq Rahman</li>
+  <li>Justin Presley</li>
+  <li>Saurab Dulal</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>3</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Mini-NDN: an easy to install and use NDN emulator environment</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong></p>
+<ul>
+  <li>Helper for ndn-trac-generator and a basic consumer producer</li>
+  <li>Mini-NDN GUI topology editor and documentations</li>
+  <li>Improve Mini-NDN installation script and Vagrantle, install ndn packages from PPA and investigate python compatibility issues</li>
+  <li>Improvements in user guide with a very simple topology and adding demo video</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Mini-NDN</li>
+  <li>Python</li>
+  <li>Shell</li>
+  <li>Vagrant</li>
+  <li>C++</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Improved Mini-NDN, easy to install and play</li>
+</ul>
+
+<h2 id="9-certcoalesce-ndn-certificate-pools">9. CertCoalesce: NDN Certificate Pools</h2>
+
+<h4 id="final-slides-4"><strong><a href="/assets/final-9-cert-coalesce-f6a65e9702535dd63265d20d8745a398e94b8723ce8a94b62af4db81593bb571.pdf">Final Slides</a></strong></h4>
+<h4 id="pitch-slides-8"><strong><a href="/assets/ndn-hackathon2105-proposal9-45c85ff4337bec3d5155e47b3332ff0c40820c0b195c29fb4e356c291846ef3e.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Leads:</strong></p>
+<ul>
+  <li>Alexander Afanasyev</li>
+  <li>Proyash Podder</li>
+</ul>
+
+<p><strong>Project Members:</strong></p>
+<ul>
+  <li>Alexander Afanasyev</li>
+  <li>Proyash Podder</li>
+  <li>Xinyu Ma</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>3</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Efficiently manage virtually unlimited pools of public/private keys and certificates to save storage on constrained devices.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong></p>
+<ul>
+  <li>Based on initial skeleton, sync up to the proposed design</li>
+  <li>Create a python package</li>
+  <li>Create a simple demo and write (interactive) documentation</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Python</li>
+  <li>Basic math skills</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>A working Python package, simple demo, and initial skeleton of documentation</li>
+</ul>
+
+</section>
+
+<footer>
+</footer>
+</article>
+
+        </div>
+
+        <aside id="sidebar" class="col-xs-8 col-sm-5 col-md-4 col-lg-3">
+          <section id="sidebar-github" class="well hidden-print">
+  <h3><a style="color:black" href="https://github.com/11th-ndn-hackathon" target="_blank"><i class="fa fa-github"></i></a>&nbsp;Hackathon Repositories</h3>
+  <ul id="github-repo" class="nav nav-list"><li><p>Reading github repositories...</p></li></ul>
+</section>
+
+<section id="sidebar-twitter" class="well hidden-print">
+ <h3><i class="fa fa-twitter"></i>&nbsp;Tweets</h3>
+ <a href="https://twitter.com/NamedData"
+   class="twitter-follow-button"
+   data-dnt="true"
+   data-lang="en"
+   data-show-count="false"
+   data-show-screen-name="true"
+ >Follow @NamedData</a>
+ <a class="twitter-timeline" href="https://twitter.com/NamedData"
+   data-widget-id="698294519054278656" data-chrome="transparent noheader">Tweets by @NamedData</a>
+</section>
+
+
+        </aside><!--/span-->
+
+      </div><!--/row-->
+    </div> <!-- /container -->
+
+    <hr>
+
+    <footer id="footer">
+      <p class="pull-right hidden-print"><a href="#">Back to top</a></p>
+<p>Copyright &copy; 2021, 11th NDN Hackathon Organizing Committee</p>
+
+    </footer>
+
+    <script integrity="sha256-k840WujcIMW6opQ2oXbMMpk7rJPXt6YBOgQeE9pyBsY=" crossorigin="anonymous" type="text/javascript" src="/assets/site-93ce345ae8dc20c5baa29436a176cc32993bac93d7b7a6013a041e13da7206c6.js"></script>
+  </body>
+</html>
